@@ -68,3 +68,12 @@ code {
   padding: 15px;
   border-top: 1px solid #ddd;
 }
+blockquote {
+  background: #f6fff6;
+  border-left: 4px solid #107C10;
+  color: #333;
+  font-size: 0.95em;
+  margin: 1em 0;
+  padding: 0.7em 1em;
+  border-radius: 6px;
+}
