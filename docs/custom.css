@@ -5,6 +5,11 @@ body {
   background-color: #ffffff;
   color: #202020;
   line-height: 1.6;
+  background-image: 
+    linear-gradient(to right, rgba(200, 200, 200, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(200, 200, 200, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px; /* rozmiar kratki */
+  background-attachment: fixed;
 }
 
 .md-header {
@@ -29,9 +34,10 @@ body {
 
 .md-content {
   padding: 20px 40px;
-  background: #FAFAFA;
+  background: rgba(255, 255, 255, 0.95); /* lekko przejrzyste na kratce */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  backdrop-filter: blur(2px);
 }
 
 h1, h2, h3, h4 {
